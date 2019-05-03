@@ -12,7 +12,6 @@ body{
 .carousel{
   max-height: 700px;
   overflow: hidden;
-  /*acomment*/
 }
 
 .carousel-inner{
@@ -30,6 +29,7 @@ top: 25%;
 font-family: 'Karla', sans-serif;
 font-size:5em;
 max-height: inherit;
+color:red
 }
 
 .carousel p{
