@@ -1,12 +1,17 @@
 /*font-family: 'Rubik', sans-serif;
-font-family: 'Karla', sans-serif;*/
+font-family: 'Karla', sans-serif;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Open Sans', sans-serif;
+
+*/
 
 
 body{
   height:3000px;
-  background-color: red;
+  background-color: #2133122
   padding: 0px;
   margin:0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .carousel{
@@ -26,7 +31,7 @@ top: 25%;
 }
 
 .carousel h5{
-font-family: 'Karla', sans-serif;
+font-family: 'La Belle Aurore', cursive;
 font-size:5em;
 max-height: inherit;
 color:red
@@ -50,4 +55,36 @@ color:red
 .navbar{
   position: sticky;
   top:0px
+}
+
+
+#title{
+  text-align: center;
+  padding:2em;
+  text-decoration: overline
+
+}
+
+.container{
+  border:2px solid black;
+  padding:2em
+
+}
+
+.container-2{
+  padding-top:56.25%
+}
+
+h1, caption{
+  font-family: 'La Belle Aurore', cursive;
+}
+
+.caption{
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 1.3em;
+  color:black
+}
+
+.img-thumbnail{
+  float:left
 }
