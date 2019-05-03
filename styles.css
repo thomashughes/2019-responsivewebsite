@@ -12,6 +12,7 @@ body{
 .carousel{
   max-height: 700px;
   overflow: hidden;
+  /*acomment*/
 }
 
 .carousel-inner{
