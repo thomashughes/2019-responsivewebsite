@@ -1,0 +1,52 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Karla', sans-serif;*/
+
+
+body{
+  height:3000px;
+  background-color: red;
+  padding: 0px;
+  margin:0px;
+}
+
+.carousel{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.carousel-inner{
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.carousel-caption{
+position: absolute;
+top: 25%;
+  max-height: inherit;
+}
+
+.carousel h5{
+font-family: 'Karla', sans-serif;
+font-size:5em;
+max-height: inherit;
+}
+
+.carousel p{
+  font-size: 2em
+}
+
+#caption2{
+  color: black
+}
+
+.img-fluid{
+  max-width: 100%;
+  max-height: inherit;
+}
+
+
+
+.navbar{
+  position: sticky;
+  top:0px
+}
