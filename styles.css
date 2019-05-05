@@ -15,6 +15,22 @@ body{
   color:#696969
 }
 
+h1, caption, h3{
+  font-family: 'La Belle Aurore', cursive;
+}
+
+h1 h3{
+  text-transform: capitalize;
+}
+
+h1{
+  text-align: center;
+  padding:0.5em;
+  margin-top:1em;
+  text-decoration: overline;
+
+}
+
 .carousel{
   max-height: 700px;
   overflow: hidden;
@@ -61,29 +77,19 @@ color:#696969
   height:3em;
   padding:2px;
   align-items: center;
-}
-
-#navbarNav{
-  text-align: center;
-}
-
-#navbarNav li{
-  display: inline-block;
+  background:white
 }
 
 
-
-
-#title{
-  text-align: center;
-  padding:0.5em;
-  margin-top:1em
-  text-decoration: overline
-
+.nav-link-wrap{
+  position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
+
 
 .container{
-  padding:2em
+  padding:1em
 }
 
 #container-2{
@@ -100,13 +106,7 @@ max-height: auto;
   height: inherit;
 }
 
-h1, caption, h3{
-  font-family: 'La Belle Aurore', cursive;
-}
 
-h3{
-  text-transform: capitalize;
-}
 
 .caption{
   font-family: 'La Belle Aurore', cursive;
@@ -117,27 +117,23 @@ h3{
 }
 
 #inner-row-1{
-  padding:2em
+  padding:1em
 }
 
 #inner-row-2{
-  padding:2em
+  padding:1em
 }
-
-
-
 
 #sidebar{
   border:2px solid #D3D3D3;
-  padding:2em;
+  padding:1em;
   text-align: center;
-
 }
 
 #sidebar h3{
   font-family: 'La Belle Aurore', cursive;
   text-transform: capitalize;
-  padding-top:2em
+  padding-top:1em
 }
 
 .fa{
@@ -146,11 +142,57 @@ h3{
 
 .me-button{
   margin:2em;
-  background-color:#949494;
+  background-color:springgreen;
   border-radius:0px;
-  border-color:#949494
+  border-color:#949494;
+  text-transform: uppercase;
+  font-size: 0.7em;
 }
 
 #sidebar img{
   margin-bottom:2em
+}
+
+
+
+
+
+
+.photocol{
+  padding: 0px;
+  margin:0px;
+  display: inline;
+
+}
+
+
+.photo-gal-left{
+  padding-right: 0px;
+}
+
+.photo-gal-right{
+  padding-left: 0px
+}
+.row{
+  margin:0px
+}
+
+
+
+/*Lighbox CSS*/
+.lightbox img {
+  display: block;
+  margin: auto;
+}
+.lightbox {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
