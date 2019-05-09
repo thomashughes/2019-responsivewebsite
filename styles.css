@@ -21,6 +21,15 @@ h1, caption, h3{
   font-family: 'La Belle Aurore', cursive;
 }
 
+p{
+  font-weight: 400;
+}
+
+a{
+  color:#696969
+}
+
+
 h3{
   text-transform: capitalize;
 
@@ -49,12 +58,18 @@ h1::after{
   max-height: inherit;
 }
 
-
+.row{
+  margin:0px
+}
 /*top page carousel*/
 #header{
   max-height: 700px;
   overflow: hidden;
 }
+#header p{
+  text-transform: capitalize;
+}
+
 
 .carousel-caption-1{
 position: absolute;
@@ -90,8 +105,8 @@ color:#696969
   height:3em;
   padding:2px;
   align-items: center;
-  color: #d1ccc0;
-  background-color: white
+  color: orange;
+  background-color: red
 }
 
 .navbar a{
@@ -100,7 +115,8 @@ color:#696969
 }
 
 .navbar a:hover{
-  color:#d1ccc0
+  color:#d1ccc0;
+  text-decoration: line-through;
 }
 
 .nav-link-wrap{
@@ -151,6 +167,7 @@ color:#696969
   border:2px solid #D3D3D3;
   padding:1em;
   text-align: center;
+  height: auto;
 }
 
 #sidebar h3{
@@ -180,17 +197,22 @@ color:#696969
 
 .container-4{
   padding-bottom: 2em;
-  padding-top: 2em
+  padding-top: 2em;
 }
+
 .container-4 h1{
   padding-bottom: 1em
 }
+
 .photo-gal-left{
-  padding-right: 0px;
+  padding: 0px;
 }
 
 .photo-gal-right{
-  padding-left: 0px
+  padding: 0px;
+}
+.my-lightbox{
+  overflow: hidden;
 }
 
 /*Lighbox CSS*/
@@ -208,7 +230,7 @@ color:#696969
   left: 0;
   z-index: 20;
   padding-top: 2em;
-  box-sizing: border-box;
+
 }
 
 
